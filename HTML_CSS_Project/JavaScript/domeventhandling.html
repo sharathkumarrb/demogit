@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>DOM Event Handling</h1>
+        <button id="myButton">Click Me</button>
+        <p id="message"></p>
+        <script>
+            document.getElementById("myButton").addEventListener("click", changeText);
+            function changeText(){
+                let element = document.getElementById("message");
+                element.innerHTML = "Button Clicked!";
+                element.style.color = "red";
+                element.style.backgroundColor = "yellow";
+            }
+        </script>
+
+
+    </body>
+</html>
