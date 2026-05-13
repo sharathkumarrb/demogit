@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Productivity Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Enroll for a New Course Right Now</h1>
+        <p>Manage your Daily Tasks Here!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="tasks.html">Tasks</a>
+    </nav>
+
+    <section>
+
+        <form action="register.html" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="courseText">Password:</label>
+            <input type="text" id="courseText" name="courseText" required>
+            <br><br>
+
+            <label>Gender:</label>
+
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+
+            <br><br>
+
+            <label for="courseSelect">Select Course:</label>
+
+            <select id="courseSelect" name="courseSelect" required>
+                <option value="DSA">DSA</option>
+                <option value="JAVA">JAVA</option>
+                <option value="PYTHON">PYTHON</option>
+            </select>
+
+            <br><br>
+            <button>Register   </button>
+        
+
+        </form>
+
+    </section>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
